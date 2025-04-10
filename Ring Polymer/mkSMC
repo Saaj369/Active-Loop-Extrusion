@@ -1,0 +1,32 @@
+# Makefile for building the SMC Ring Polymer simulation code.
+# Compiles all components related to SMC dynamics and MD simulation.
+
+all : compiled/SMC_Ring
+
+SMC_Ring.o : SMC_Ring.cpp
+	g++ -c SMC_Ring.cpp
+
+helpers.o : ../src/helpers.cpp
+	g++ -c ../src/helpers.cpp
+
+helpers2.o : ../src/helpers2.cpp
+	g++ -c ../src/helpers2.cpp
+
+SMC_helpers.o : SMC_helpers.cpp
+	g++ -c SMC_helpers.cpp
+
+SMC.o : SMC.cpp
+	g++ -c SMC.cpp
+
+compiled/SMC_Ring : clean SMC_Ring.o helpers.o helpers2.o SMC_helpers.o SMC.o | compiled
+	g++ -o compiled/SMC_Ring SMC_Ring.o helpers.o helpers2.o SMC_helpers.o SMC.o
+	rm -f SMC_Ring.o helpers.o helpers2.o SMC_helpers.o SMC.o
+
+run : compiled/SMC_Ring
+	./compiled/SMC_Ring
+
+compiled:
+	mkdir -p compiled
+
+clean:
+	rm -f compiled/SMC_Ring SMC_Ring.o helpers.o helpers2.o SMC_helpers.o SMC.o
