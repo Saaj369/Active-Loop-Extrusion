@@ -167,7 +167,7 @@ Visualizations of the polymer dynamics and loop extrusion process are available 
 
 The full MS thesis document is available here:
 
-**[📥 Download Thesis (PDF)](assets/thesis.pdf)**
+**[📥 Download Thesis (PDF)](https://drive.google.com/file/d/1DiTzFw-YbOwlozAh2MGJbipn_l3Scpvt/view?usp=sharing)**
 
 > *Title:* **Active Loop Extrusion of Chromatin**
 > Contains detailed theoretical background, model derivations, simulation methodology, results, and discussion.
