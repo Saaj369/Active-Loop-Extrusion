@@ -13,12 +13,13 @@
 
 ---
 
+
 <!-- Replace the src below with your actual animation GIF paths once uploaded -->
-<img src="assets/animations/ring_animation.gif" alt="Ring Polymer Loop Extrusion" width="45%"/>
+<!-- <img src="assets/animations/ring_animation.gif" alt="Ring Polymer Loop Extrusion" width="45%"/>
 &nbsp;&nbsp;
 <img src="assets/animations/linear_animation.gif" alt="Linear Polymer Loop Extrusion" width="45%"/>
 
-*Left: Ring polymer undergoing active loop extrusion &nbsp;|&nbsp; Right: Linear polymer dynamics*
+*Left: Ring polymer undergoing active loop extrusion &nbsp;|&nbsp; Right: Linear polymer dynamics* -->
 
 ---
 
@@ -75,12 +76,19 @@ Active-Loop-Extrusion/
 
 ### 1 · Ring Polymer Model
 
+https://github.com/user-attachments/assets/a21c97d1-8cdb-4200-b269-249d957c33fd
+
 The bacterial chromatin is generally arranged in circular structure therefore Ring Polymer was a natural starting point. The ring polymer is modeled as a bead-spring chain forming a closed loop. The extruder binds on a random site of polymer and pulls the polymer in. This causes the ring to collapse and get folded.
 - **Regime:** Overdamped Langevin dynamics
 - **Integration scheme:** Velocity Verlet
 - **Key observables:** Loop size distribution, mean-square displacement, contact maps
 
 ### 2 · Linear Polymer (Realistic) Model
+
+
+https://github.com/user-attachments/assets/03d34c3c-0eb6-4a9c-8903-a0f09f08fab3
+
+
 
 The linear model more faithfully represents chromatin as a linear chain with free ends, as found in eukaryotic chromosomes. This model introduces CTCFs as boundary elements. The novelty of this model is that it attempts to create realistic model of a chromatin by placing CTCF at polymer locations identified from the real genomic data. This model was studied in two dynamical regimes:
 
