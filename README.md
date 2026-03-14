@@ -198,7 +198,7 @@ pip install numpy matplotlib scipy
 
 Feel free to reach out for questions, discussions, or collaborations.
 
-**Saaj** — *MS in Physics / Computational Biophysics*
+**Saaj** — *MS in Physics / Computational Biophysics*(saajdaheriya@gmail.com)
 [![GitHub](https://img.shields.io/badge/GitHub-Saaj369-181717?logo=github)](https://github.com/Saaj369)
 
 ---
